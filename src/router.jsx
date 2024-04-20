@@ -6,11 +6,11 @@ import { Comments } from './pages/Comments';
 import { Contacts } from './pages/Contacts';
 import { NotFoundPage } from './pages/404';
 
-
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement: <NotFoundPage />,
   },
   {
     path: "/products",
@@ -23,9 +23,5 @@ export const router = createBrowserRouter([
   {
     path: "/contacts",
     element: <Contacts />,
-  },
-  {
-    path: "*",
-    element: <NotFoundPage />,
   },
 ]);
