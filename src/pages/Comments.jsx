@@ -1,11 +1,10 @@
-import { Header } from './../components/header/Header';
-import { Footer } from './../components/footer/Footer';
+// import { Header } from './../components/header/Header';
+// import { Footer } from './../components/footer/Footer';
 
 export const Comments = () => {
 
   return(
-    <>
-      <Header />
+    <>      
       <section className="content">
         <div className="container">
           <h1>Отзывы</h1>
@@ -13,7 +12,6 @@ export const Comments = () => {
           <p>Отзыв: Четко, внатуре класс.</p>
         </div>
       </section>
-      <Footer />
     </>
 
   )
